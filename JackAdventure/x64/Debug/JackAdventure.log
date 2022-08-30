@@ -1,0 +1,363 @@
+﻿  JackAdventure.cpp
+  Application.cpp
+D:\gameC++\JackAdventure-main\JackAdventure\Sources\Application.cpp(16,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  ResourceManager.cpp
+  WindowConnector.cpp
+  Animation.cpp
+  Animation2.cpp
+  Boss.cpp
+  BossWeapon.cpp
+  BSAttack.cpp
+  BSJump.cpp
+  BSJumpBite.cpp
+  Bullet.cpp
+  CollisionManager.cpp
+  Creep.cpp
+  CreepBat.cpp
+  CreepManager.cpp
+D:\gameC++\JackAdventure-main\JackAdventure\Sources\GameObjects\CreepManager.cpp(84,67): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\gameC++\JackAdventure-main\JackAdventure\Sources\GameObjects\CreepManager.cpp(85,50): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\gameC++\JackAdventure-main\JackAdventure\Sources\GameObjects\CreepManager.cpp(100,87): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\gameC++\JackAdventure-main\JackAdventure\Sources\GameObjects\CreepManager.cpp(100,74): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  CreepRino.cpp
+  GameButton.cpp
+  HitBox.cpp
+  Layer.cpp
+D:\gameC++\JackAdventure-main\JackAdventure\Sources\GameObjects\Layer.cpp(12,66): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\gameC++\JackAdventure-main\JackAdventure\Sources\GameObjects\Layer.cpp(25,68): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\gameC++\JackAdventure-main\JackAdventure\Sources\GameObjects\Layer.cpp(40,49): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+D:\gameC++\JackAdventure-main\JackAdventure\Sources\GameObjects\Layer.cpp(40,29): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+  Generating Code...
+  Compiling...
+  ParallelBackground.cpp
+  Player.cpp
+  PSAttack.cpp
+  PSDeath.cpp
+  PSFall.cpp
+  PSJump.cpp
+  PSRun.cpp
+  ScoreManager.cpp
+  GameStateBase.cpp
+  GameStateMachine.cpp
+  GSAbout.cpp
+D:\gameC++\JackAdventure-main\JackAdventure\Sources\GameStateManager\GSAbout.cpp(39,57): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+  GSEnd.cpp
+D:\gameC++\JackAdventure-main\JackAdventure\Sources\GameStateManager\GSEnd.cpp(58,57): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+  GSHighScore.cpp
+D:\gameC++\JackAdventure-main\JackAdventure\Sources\GameStateManager\GSHighScore.cpp(49,57): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+D:\gameC++\JackAdventure-main\JackAdventure\Sources\GameStateManager\GSHighScore.cpp(60,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  GSIntro.cpp
+  GSMenu.cpp
+D:\gameC++\JackAdventure-main\JackAdventure\Sources\GameStateManager\GSMenu.cpp(72,57): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+  GSPlay.cpp
+  GSSetting.cpp
+D:\gameC++\JackAdventure-main\JackAdventure\Sources\GameStateManager\GSSetting.cpp(56,57): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+  Generating Code...
+Application.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: float __cdecl sf::Time::asSeconds(void)const " (__imp_?asSeconds@Time@sf@@QEBAMXZ) referenced in function "public: void __cdecl Application::Run(void)" (?Run@Application@@QEAAXXZ)
+Application.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::Clock::Clock(void)" (__imp_??0Clock@sf@@QEAA@XZ) referenced in function "public: void __cdecl Application::Run(void)" (?Run@Application@@QEAAXXZ)
+Application.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: class sf::Time __cdecl sf::Clock::restart(void)" (__imp_?restart@Clock@sf@@QEAA?AVTime@2@XZ) referenced in function "public: void __cdecl Application::Run(void)" (?Run@Application@@QEAAXXZ)
+GSPlay.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::String::String(char const *,class std::locale const &)" (__imp_??0String@sf@@QEAA@PEBDAEBVlocale@std@@@Z)
+GSSetting.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::String::String(char const *,class std::locale const &)" (__imp_??0String@sf@@QEAA@PEBDAEBVlocale@std@@@Z)
+Application.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::String::String(char const *,class std::locale const &)" (__imp_??0String@sf@@QEAA@PEBDAEBVlocale@std@@@Z)
+GSAbout.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::String::String(char const *,class std::locale const &)" (__imp_??0String@sf@@QEAA@PEBDAEBVlocale@std@@@Z)
+GSEnd.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::String::String(char const *,class std::locale const &)" (__imp_??0String@sf@@QEAA@PEBDAEBVlocale@std@@@Z)
+GSHighScore.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::String::String(char const *,class std::locale const &)" (__imp_??0String@sf@@QEAA@PEBDAEBVlocale@std@@@Z)
+GSPlay.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::String::~String(void)" (__imp_??1String@sf@@QEAA@XZ)
+GSSetting.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::String::~String(void)" (__imp_??1String@sf@@QEAA@XZ)
+Application.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::String::~String(void)" (__imp_??1String@sf@@QEAA@XZ)
+GSAbout.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::String::~String(void)" (__imp_??1String@sf@@QEAA@XZ)
+GSEnd.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::String::~String(void)" (__imp_??1String@sf@@QEAA@XZ)
+GSHighScore.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::String::~String(void)" (__imp_??1String@sf@@QEAA@XZ)
+Application.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::VideoMode::VideoMode(unsigned int,unsigned int,unsigned int)" (__imp_??0VideoMode@sf@@QEAA@III@Z) referenced in function "private: void __cdecl Application::Init(void)" (?Init@Application@@AEAAXXZ)
+Application.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Window::close(void)" (__imp_?close@Window@sf@@QEAAXXZ) referenced in function "public: void __cdecl Application::Run(void)" (?Run@Application@@QEAAXXZ)
+GSMenu.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Window::close(void)" (__imp_?close@Window@sf@@QEAAXXZ)
+Application.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: bool __cdecl sf::Window::isOpen(void)const " (__imp_?isOpen@Window@sf@@QEBA_NXZ) referenced in function "public: void __cdecl Application::Run(void)" (?Run@Application@@QEAAXXZ)
+Application.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: bool __cdecl sf::Window::pollEvent(class sf::Event &)" (__imp_?pollEvent@Window@sf@@QEAA_NAEAVEvent@2@@Z) referenced in function "public: void __cdecl Application::Run(void)" (?Run@Application@@QEAAXXZ)
+Application.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Window::setVerticalSyncEnabled(bool)" (__imp_?setVerticalSyncEnabled@Window@sf@@QEAAX_N@Z) referenced in function "private: void __cdecl Application::Init(void)" (?Init@Application@@AEAAXXZ)
+Application.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Window::setFramerateLimit(unsigned int)" (__imp_?setFramerateLimit@Window@sf@@QEAAXI@Z) referenced in function "private: void __cdecl Application::Init(void)" (?Init@Application@@AEAAXXZ)
+Application.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Window::display(void)" (__imp_?display@Window@sf@@QEAAXXZ) referenced in function "private: void __cdecl Application::Render(void)" (?Render@Application@@AEAAXXZ)
+Application.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::RenderTarget::clear(class sf::Color const &)" (__imp_?clear@RenderTarget@sf@@QEAAXAEBVColor@2@@Z) referenced in function "private: void __cdecl Application::Render(void)" (?Render@Application@@AEAAXXZ)
+    Hint on symbols that are defined and could potentially match:
+      "__declspec(dllimport) public: void __cdecl std::basic_ios<char,struct std::char_traits<char> >::clear(int,bool)" (__imp_?clear@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z)
+Application.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::RenderWindow::RenderWindow(class sf::VideoMode,class sf::String const &,unsigned int,struct sf::ContextSettings const &)" (__imp_??0RenderWindow@sf@@QEAA@VVideoMode@1@AEBVString@1@IAEBUContextSettings@1@@Z) referenced in function "private: void __cdecl Application::Init(void)" (?Init@Application@@AEAAXXZ)
+Application.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl sf::RenderWindow::~RenderWindow(void)" (__imp_??1RenderWindow@sf@@UEAA@XZ) referenced in function "public: virtual void * __cdecl sf::RenderWindow::`scalar deleting destructor'(unsigned int)" (??_GRenderWindow@sf@@UEAAPEAXI@Z)
+Application.obj : error LNK2001: unresolved external symbol "public: virtual class sf::Vector2<unsigned int> __cdecl sf::RenderWindow::getSize(void)const " (?getSize@RenderWindow@sf@@UEBA?AV?$Vector2@I@2@XZ)
+Application.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl sf::RenderWindow::onCreate(void)" (?onCreate@RenderWindow@sf@@MEAAXXZ)
+Application.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl sf::RenderWindow::onResize(void)" (?onResize@RenderWindow@sf@@MEAAXXZ)
+Application.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl sf::RenderWindow::setActive(bool)" (?setActive@RenderWindow@sf@@UEAA_N_N@Z)
+Application.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class sf::Color const sf::Color::White" (__imp_?White@Color@sf@@2V12@B) referenced in function "private: void __cdecl Application::Render(void)" (?Render@Application@@AEAAXXZ)
+GSPlay.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static class sf::Color const sf::Color::White" (__imp_?White@Color@sf@@2V12@B)
+ResourceManager.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::Texture::Texture(void)" (__imp_??0Texture@sf@@QEAA@XZ) referenced in function "public: void __cdecl ResourceManager::addTexture(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?addTexture@ResourceManager@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+ResourceManager.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::Texture::~Texture(void)" (__imp_??1Texture@sf@@QEAA@XZ) referenced in function "public: void * __cdecl sf::Texture::`scalar deleting destructor'(unsigned int)" (??_GTexture@sf@@QEAAPEAXI@Z)
+ResourceManager.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: bool __cdecl sf::Texture::loadFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class sf::Rect<int> const &)" (__imp_?loadFromFile@Texture@sf@@QEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV?$Rect@H@2@@Z) referenced in function "public: void __cdecl ResourceManager::addTexture(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?addTexture@ResourceManager@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+ResourceManager.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::Font::Font(void)" (__imp_??0Font@sf@@QEAA@XZ) referenced in function "public: void __cdecl ResourceManager::addFont(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?addFont@ResourceManager@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+ResourceManager.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::Font::~Font(void)" (__imp_??1Font@sf@@QEAA@XZ) referenced in function "public: void * __cdecl sf::Font::`scalar deleting destructor'(unsigned int)" (??_GFont@sf@@QEAAPEAXI@Z)
+ResourceManager.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: bool __cdecl sf::Font::loadFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (__imp_?loadFromFile@Font@sf@@QEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) referenced in function "public: void __cdecl ResourceManager::addFont(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?addFont@ResourceManager@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+ResourceManager.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::Music::Music(void)" (__imp_??0Music@sf@@QEAA@XZ) referenced in function "public: void __cdecl ResourceManager::addMusic(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?addMusic@ResourceManager@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+ResourceManager.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl sf::Music::~Music(void)" (__imp_??1Music@sf@@UEAA@XZ) referenced in function "public: virtual void * __cdecl sf::Music::`scalar deleting destructor'(unsigned int)" (??_GMusic@sf@@UEAAPEAXI@Z)
+ResourceManager.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: bool __cdecl sf::Music::openFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (__imp_?openFromFile@Music@sf@@QEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) referenced in function "public: void __cdecl ResourceManager::addMusic(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?addMusic@ResourceManager@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+ResourceManager.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::Sound::Sound(void)" (__imp_??0Sound@sf@@QEAA@XZ) referenced in function "public: void __cdecl ResourceManager::addSound(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?addSound@ResourceManager@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+ResourceManager.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl sf::Sound::~Sound(void)" (__imp_??1Sound@sf@@UEAA@XZ) referenced in function "public: virtual void * __cdecl sf::Sound::`scalar deleting destructor'(unsigned int)" (??_GSound@sf@@UEAAPEAXI@Z)
+ResourceManager.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Sound::setBuffer(class sf::SoundBuffer const &)" (__imp_?setBuffer@Sound@sf@@QEAAXAEBVSoundBuffer@2@@Z) referenced in function "public: void __cdecl ResourceManager::addSound(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?addSound@ResourceManager@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+ResourceManager.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::SoundBuffer::SoundBuffer(void)" (__imp_??0SoundBuffer@sf@@QEAA@XZ) referenced in function "public: void __cdecl ResourceManager::addSound(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?addSound@ResourceManager@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+ResourceManager.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: bool __cdecl sf::SoundBuffer::loadFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (__imp_?loadFromFile@SoundBuffer@sf@@QEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) referenced in function "public: void __cdecl ResourceManager::addSound(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?addSound@ResourceManager@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+ResourceManager.obj : error LNK2001: unresolved external symbol "public: virtual enum sf::SoundSource::Status __cdecl sf::Sound::getStatus(void)const " (?getStatus@Sound@sf@@UEBA?AW4Status@SoundSource@2@XZ)
+ResourceManager.obj : error LNK2001: unresolved external symbol "public: virtual enum sf::SoundSource::Status __cdecl sf::SoundStream::getStatus(void)const " (?getStatus@SoundStream@sf@@UEBA?AW4Status@SoundSource@2@XZ)
+ResourceManager.obj : error LNK2001: unresolved external symbol "protected: virtual bool __cdecl sf::Music::onGetData(struct sf::SoundStream::Chunk &)" (?onGetData@Music@sf@@MEAA_NAEAUChunk@SoundStream@2@@Z)
+ResourceManager.obj : error LNK2001: unresolved external symbol "protected: virtual __int64 __cdecl sf::Music::onLoop(void)" (?onLoop@Music@sf@@MEAA_JXZ)
+ResourceManager.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl sf::Music::onSeek(class sf::Time)" (?onSeek@Music@sf@@MEAAXVTime@2@@Z)
+ResourceManager.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl sf::Sound::pause(void)" (?pause@Sound@sf@@UEAAXXZ)
+ResourceManager.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl sf::SoundStream::pause(void)" (?pause@SoundStream@sf@@UEAAXXZ)
+ResourceManager.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl sf::Sound::play(void)" (?play@Sound@sf@@UEAAXXZ)
+ResourceManager.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl sf::SoundStream::play(void)" (?play@SoundStream@sf@@UEAAXXZ)
+ResourceManager.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl sf::Sound::stop(void)" (?stop@Sound@sf@@UEAAXXZ)
+ResourceManager.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl sf::SoundStream::stop(void)" (?stop@SoundStream@sf@@UEAAXXZ)
+GSSetting.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Transformable::setOrigin(class sf::Vector2<float> const &)" (__imp_?setOrigin@Transformable@sf@@QEAAXAEBV?$Vector2@M@2@@Z)
+GSEnd.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Transformable::setOrigin(class sf::Vector2<float> const &)" (__imp_?setOrigin@Transformable@sf@@QEAAXAEBV?$Vector2@M@2@@Z)
+GSHighScore.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Transformable::setOrigin(class sf::Vector2<float> const &)" (__imp_?setOrigin@Transformable@sf@@QEAAXAEBV?$Vector2@M@2@@Z)
+GSIntro.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Transformable::setOrigin(class sf::Vector2<float> const &)" (__imp_?setOrigin@Transformable@sf@@QEAAXAEBV?$Vector2@M@2@@Z)
+GSMenu.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Transformable::setOrigin(class sf::Vector2<float> const &)" (__imp_?setOrigin@Transformable@sf@@QEAAXAEBV?$Vector2@M@2@@Z)
+Animation.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Transformable::setOrigin(class sf::Vector2<float> const &)" (__imp_?setOrigin@Transformable@sf@@QEAAXAEBV?$Vector2@M@2@@Z)
+HitBox.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Transformable::setOrigin(class sf::Vector2<float> const &)" (__imp_?setOrigin@Transformable@sf@@QEAAXAEBV?$Vector2@M@2@@Z)
+Layer.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Transformable::setOrigin(class sf::Vector2<float> const &)" (__imp_?setOrigin@Transformable@sf@@QEAAXAEBV?$Vector2@M@2@@Z)
+GSAbout.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Transformable::setOrigin(class sf::Vector2<float> const &)" (__imp_?setOrigin@Transformable@sf@@QEAAXAEBV?$Vector2@M@2@@Z)
+GSHighScore.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class sf::Vector2<unsigned int> __cdecl sf::Texture::getSize(void)const " (__imp_?getSize@Texture@sf@@QEBA?AV?$Vector2@I@2@XZ)
+GSIntro.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class sf::Vector2<unsigned int> __cdecl sf::Texture::getSize(void)const " (__imp_?getSize@Texture@sf@@QEBA?AV?$Vector2@I@2@XZ)
+GSMenu.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class sf::Vector2<unsigned int> __cdecl sf::Texture::getSize(void)const " (__imp_?getSize@Texture@sf@@QEBA?AV?$Vector2@I@2@XZ)
+GSSetting.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class sf::Vector2<unsigned int> __cdecl sf::Texture::getSize(void)const " (__imp_?getSize@Texture@sf@@QEBA?AV?$Vector2@I@2@XZ)
+Animation.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class sf::Vector2<unsigned int> __cdecl sf::Texture::getSize(void)const " (__imp_?getSize@Texture@sf@@QEBA?AV?$Vector2@I@2@XZ)
+Layer.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class sf::Vector2<unsigned int> __cdecl sf::Texture::getSize(void)const " (__imp_?getSize@Texture@sf@@QEBA?AV?$Vector2@I@2@XZ)
+GSAbout.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class sf::Vector2<unsigned int> __cdecl sf::Texture::getSize(void)const " (__imp_?getSize@Texture@sf@@QEBA?AV?$Vector2@I@2@XZ)
+GSEnd.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class sf::Vector2<unsigned int> __cdecl sf::Texture::getSize(void)const " (__imp_?getSize@Texture@sf@@QEBA?AV?$Vector2@I@2@XZ)
+GSHighScore.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::Sprite::Sprite(void)" (__imp_??0Sprite@sf@@QEAA@XZ)
+GSIntro.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::Sprite::Sprite(void)" (__imp_??0Sprite@sf@@QEAA@XZ)
+GSMenu.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::Sprite::Sprite(void)" (__imp_??0Sprite@sf@@QEAA@XZ)
+GSSetting.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::Sprite::Sprite(void)" (__imp_??0Sprite@sf@@QEAA@XZ)
+Animation.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::Sprite::Sprite(void)" (__imp_??0Sprite@sf@@QEAA@XZ)
+ParallelBackground.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::Sprite::Sprite(void)" (__imp_??0Sprite@sf@@QEAA@XZ)
+GSAbout.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::Sprite::Sprite(void)" (__imp_??0Sprite@sf@@QEAA@XZ)
+GSEnd.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::Sprite::Sprite(void)" (__imp_??0Sprite@sf@@QEAA@XZ)
+GSHighScore.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Sprite::setTexture(class sf::Texture const &,bool)" (__imp_?setTexture@Sprite@sf@@QEAAXAEBVTexture@2@_N@Z)
+GSIntro.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Sprite::setTexture(class sf::Texture const &,bool)" (__imp_?setTexture@Sprite@sf@@QEAAXAEBVTexture@2@_N@Z)
+GSMenu.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Sprite::setTexture(class sf::Texture const &,bool)" (__imp_?setTexture@Sprite@sf@@QEAAXAEBVTexture@2@_N@Z)
+GSSetting.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Sprite::setTexture(class sf::Texture const &,bool)" (__imp_?setTexture@Sprite@sf@@QEAAXAEBVTexture@2@_N@Z)
+Animation.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Sprite::setTexture(class sf::Texture const &,bool)" (__imp_?setTexture@Sprite@sf@@QEAAXAEBVTexture@2@_N@Z)
+Layer.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Sprite::setTexture(class sf::Texture const &,bool)" (__imp_?setTexture@Sprite@sf@@QEAAXAEBVTexture@2@_N@Z)
+GSAbout.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Sprite::setTexture(class sf::Texture const &,bool)" (__imp_?setTexture@Sprite@sf@@QEAAXAEBVTexture@2@_N@Z)
+GSEnd.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Sprite::setTexture(class sf::Texture const &,bool)" (__imp_?setTexture@Sprite@sf@@QEAAXAEBVTexture@2@_N@Z)
+Animation.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Sprite::setTextureRect(class sf::Rect<int> const &)" (__imp_?setTextureRect@Sprite@sf@@QEAAXAEBV?$Rect@H@2@@Z) referenced in function "public: void __cdecl Animation::ApplyRect(void)" (?ApplyRect@Animation@@QEAAXXZ)
+Animation.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: class sf::Texture const * __cdecl sf::Sprite::getTexture(void)const " (__imp_?getTexture@Sprite@sf@@QEBAPEBVTexture@2@XZ) referenced in function "public: void __cdecl Animation::CalculateRectSize(void)" (?CalculateRectSize@Animation@@QEAAXXZ)
+GSSetting.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl sf::Sprite::~Sprite(void)" (__imp_??1Sprite@sf@@UEAA@XZ)
+GSEnd.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl sf::Sprite::~Sprite(void)" (__imp_??1Sprite@sf@@UEAA@XZ)
+GSHighScore.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl sf::Sprite::~Sprite(void)" (__imp_??1Sprite@sf@@UEAA@XZ)
+GSIntro.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl sf::Sprite::~Sprite(void)" (__imp_??1Sprite@sf@@UEAA@XZ)
+GSMenu.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl sf::Sprite::~Sprite(void)" (__imp_??1Sprite@sf@@UEAA@XZ)
+Animation.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl sf::Sprite::~Sprite(void)" (__imp_??1Sprite@sf@@UEAA@XZ)
+Animation2.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl sf::Sprite::~Sprite(void)" (__imp_??1Sprite@sf@@UEAA@XZ)
+ParallelBackground.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl sf::Sprite::~Sprite(void)" (__imp_??1Sprite@sf@@UEAA@XZ)
+GSAbout.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl sf::Sprite::~Sprite(void)" (__imp_??1Sprite@sf@@UEAA@XZ)
+Animation.obj : error LNK2001: unresolved external symbol "private: virtual void __cdecl sf::Sprite::draw(class sf::RenderTarget &,class sf::RenderStates)const " (?draw@Sprite@sf@@EEBAXAEAVRenderTarget@2@VRenderStates@2@@Z)
+Animation2.obj : error LNK2001: unresolved external symbol "private: virtual void __cdecl sf::Sprite::draw(class sf::RenderTarget &,class sf::RenderStates)const " (?draw@Sprite@sf@@EEBAXAEAVRenderTarget@2@VRenderStates@2@@Z)
+Animation2.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Transformable::setScale(float,float)" (__imp_?setScale@Transformable@sf@@QEAAXMM@Z) referenced in function "public: __cdecl Animation2::Animation2(class sf::Texture &,class sf::Vector2<int>,float,int)" (??0Animation2@@QEAA@AEAVTexture@sf@@V?$Vector2@H@2@MH@Z)
+GSSetting.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Transformable::setPosition(float,float)" (__imp_?setPosition@Transformable@sf@@QEAAXMM@Z)
+GSHighScore.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Transformable::setPosition(float,float)" (__imp_?setPosition@Transformable@sf@@QEAAXMM@Z)
+GSIntro.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Transformable::setPosition(float,float)" (__imp_?setPosition@Transformable@sf@@QEAAXMM@Z)
+GSMenu.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Transformable::setPosition(float,float)" (__imp_?setPosition@Transformable@sf@@QEAAXMM@Z)
+GSPlay.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Transformable::setPosition(float,float)" (__imp_?setPosition@Transformable@sf@@QEAAXMM@Z)
+Layer.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Transformable::setPosition(float,float)" (__imp_?setPosition@Transformable@sf@@QEAAXMM@Z)
+Player.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Transformable::setPosition(float,float)" (__imp_?setPosition@Transformable@sf@@QEAAXMM@Z)
+GSAbout.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Transformable::setPosition(float,float)" (__imp_?setPosition@Transformable@sf@@QEAAXMM@Z)
+GSEnd.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Transformable::setPosition(float,float)" (__imp_?setPosition@Transformable@sf@@QEAAXMM@Z)
+Boss.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Transformable::setPosition(float,float)" (__imp_?setPosition@Transformable@sf@@QEAAXMM@Z)
+Bullet.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Transformable::setPosition(float,float)" (__imp_?setPosition@Transformable@sf@@QEAAXMM@Z)
+CreepBat.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Transformable::setPosition(float,float)" (__imp_?setPosition@Transformable@sf@@QEAAXMM@Z)
+CreepRino.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Transformable::setPosition(float,float)" (__imp_?setPosition@Transformable@sf@@QEAAXMM@Z)
+GSMenu.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class sf::Vector2<float> const & __cdecl sf::RectangleShape::getSize(void)const " (__imp_?getSize@RectangleShape@sf@@QEBAAEBV?$Vector2@M@2@XZ)
+GSSetting.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class sf::Vector2<float> const & __cdecl sf::RectangleShape::getSize(void)const " (__imp_?getSize@RectangleShape@sf@@QEBAAEBV?$Vector2@M@2@XZ)
+Boss.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class sf::Vector2<float> const & __cdecl sf::RectangleShape::getSize(void)const " (__imp_?getSize@RectangleShape@sf@@QEBAAEBV?$Vector2@M@2@XZ)
+GSAbout.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class sf::Vector2<float> const & __cdecl sf::RectangleShape::getSize(void)const " (__imp_?getSize@RectangleShape@sf@@QEBAAEBV?$Vector2@M@2@XZ)
+GSEnd.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class sf::Vector2<float> const & __cdecl sf::RectangleShape::getSize(void)const " (__imp_?getSize@RectangleShape@sf@@QEBAAEBV?$Vector2@M@2@XZ)
+GSHighScore.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class sf::Vector2<float> const & __cdecl sf::RectangleShape::getSize(void)const " (__imp_?getSize@RectangleShape@sf@@QEBAAEBV?$Vector2@M@2@XZ)
+PSFall.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Transformable::setPosition(class sf::Vector2<float> const &)" (__imp_?setPosition@Transformable@sf@@QEAAXAEBV?$Vector2@M@2@@Z)
+PSJump.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Transformable::setPosition(class sf::Vector2<float> const &)" (__imp_?setPosition@Transformable@sf@@QEAAXAEBV?$Vector2@M@2@@Z)
+PSRun.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Transformable::setPosition(class sf::Vector2<float> const &)" (__imp_?setPosition@Transformable@sf@@QEAAXAEBV?$Vector2@M@2@@Z)
+Creep.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Transformable::setPosition(class sf::Vector2<float> const &)" (__imp_?setPosition@Transformable@sf@@QEAAXAEBV?$Vector2@M@2@@Z)
+Layer.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Transformable::setPosition(class sf::Vector2<float> const &)" (__imp_?setPosition@Transformable@sf@@QEAAXAEBV?$Vector2@M@2@@Z)
+PSAttack.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Transformable::setPosition(class sf::Vector2<float> const &)" (__imp_?setPosition@Transformable@sf@@QEAAXAEBV?$Vector2@M@2@@Z)
+PSDeath.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Transformable::setPosition(class sf::Vector2<float> const &)" (__imp_?setPosition@Transformable@sf@@QEAAXAEBV?$Vector2@M@2@@Z)
+BSAttack.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Transformable::setPosition(class sf::Vector2<float> const &)" (__imp_?setPosition@Transformable@sf@@QEAAXAEBV?$Vector2@M@2@@Z)
+BSJump.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Transformable::setPosition(class sf::Vector2<float> const &)" (__imp_?setPosition@Transformable@sf@@QEAAXAEBV?$Vector2@M@2@@Z)
+BSJumpBite.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Transformable::setPosition(class sf::Vector2<float> const &)" (__imp_?setPosition@Transformable@sf@@QEAAXAEBV?$Vector2@M@2@@Z)
+Bullet.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Transformable::setPosition(class sf::Vector2<float> const &)" (__imp_?setPosition@Transformable@sf@@QEAAXAEBV?$Vector2@M@2@@Z)
+PSFall.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class sf::Vector2<float> const & __cdecl sf::Transformable::getPosition(void)const " (__imp_?getPosition@Transformable@sf@@QEBAAEBV?$Vector2@M@2@XZ)
+PSJump.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class sf::Vector2<float> const & __cdecl sf::Transformable::getPosition(void)const " (__imp_?getPosition@Transformable@sf@@QEBAAEBV?$Vector2@M@2@XZ)
+PSRun.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class sf::Vector2<float> const & __cdecl sf::Transformable::getPosition(void)const " (__imp_?getPosition@Transformable@sf@@QEBAAEBV?$Vector2@M@2@XZ)
+Creep.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class sf::Vector2<float> const & __cdecl sf::Transformable::getPosition(void)const " (__imp_?getPosition@Transformable@sf@@QEBAAEBV?$Vector2@M@2@XZ)
+Layer.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class sf::Vector2<float> const & __cdecl sf::Transformable::getPosition(void)const " (__imp_?getPosition@Transformable@sf@@QEBAAEBV?$Vector2@M@2@XZ)
+PSAttack.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class sf::Vector2<float> const & __cdecl sf::Transformable::getPosition(void)const " (__imp_?getPosition@Transformable@sf@@QEBAAEBV?$Vector2@M@2@XZ)
+PSDeath.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class sf::Vector2<float> const & __cdecl sf::Transformable::getPosition(void)const " (__imp_?getPosition@Transformable@sf@@QEBAAEBV?$Vector2@M@2@XZ)
+BSAttack.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class sf::Vector2<float> const & __cdecl sf::Transformable::getPosition(void)const " (__imp_?getPosition@Transformable@sf@@QEBAAEBV?$Vector2@M@2@XZ)
+BSJump.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class sf::Vector2<float> const & __cdecl sf::Transformable::getPosition(void)const " (__imp_?getPosition@Transformable@sf@@QEBAAEBV?$Vector2@M@2@XZ)
+BSJumpBite.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class sf::Vector2<float> const & __cdecl sf::Transformable::getPosition(void)const " (__imp_?getPosition@Transformable@sf@@QEBAAEBV?$Vector2@M@2@XZ)
+Bullet.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class sf::Vector2<float> const & __cdecl sf::Transformable::getPosition(void)const " (__imp_?getPosition@Transformable@sf@@QEBAAEBV?$Vector2@M@2@XZ)
+PSJump.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Transformable::move(float,float)" (__imp_?move@Transformable@sf@@QEAAXMM@Z) referenced in function "public: static class ResourceManager * __cdecl CSingleton<class ResourceManager>::GetInstance(void)" (?GetInstance@?$CSingleton@VResourceManager@@@@SAPEAVResourceManager@@XZ)
+PSRun.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Transformable::move(float,float)" (__imp_?move@Transformable@sf@@QEAAXMM@Z)
+BSAttack.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Transformable::move(float,float)" (__imp_?move@Transformable@sf@@QEAAXMM@Z)
+BSJumpBite.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Transformable::move(float,float)" (__imp_?move@Transformable@sf@@QEAAXMM@Z)
+Layer.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Transformable::move(float,float)" (__imp_?move@Transformable@sf@@QEAAXMM@Z)
+PSFall.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Transformable::move(float,float)" (__imp_?move@Transformable@sf@@QEAAXMM@Z)
+GSMenu.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::RenderTarget::draw(class sf::Drawable const &,class sf::RenderStates const &)" (__imp_?draw@RenderTarget@sf@@QEAAXAEBVDrawable@2@AEBVRenderStates@2@@Z)
+GSPlay.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::RenderTarget::draw(class sf::Drawable const &,class sf::RenderStates const &)" (__imp_?draw@RenderTarget@sf@@QEAAXAEBVDrawable@2@AEBVRenderStates@2@@Z)
+GSSetting.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::RenderTarget::draw(class sf::Drawable const &,class sf::RenderStates const &)" (__imp_?draw@RenderTarget@sf@@QEAAXAEBVDrawable@2@AEBVRenderStates@2@@Z)
+GSAbout.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::RenderTarget::draw(class sf::Drawable const &,class sf::RenderStates const &)" (__imp_?draw@RenderTarget@sf@@QEAAXAEBVDrawable@2@AEBVRenderStates@2@@Z)
+GSEnd.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::RenderTarget::draw(class sf::Drawable const &,class sf::RenderStates const &)" (__imp_?draw@RenderTarget@sf@@QEAAXAEBVDrawable@2@AEBVRenderStates@2@@Z)
+GSHighScore.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::RenderTarget::draw(class sf::Drawable const &,class sf::RenderStates const &)" (__imp_?draw@RenderTarget@sf@@QEAAXAEBVDrawable@2@AEBVRenderStates@2@@Z)
+GSIntro.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::RenderTarget::draw(class sf::Drawable const &,class sf::RenderStates const &)" (__imp_?draw@RenderTarget@sf@@QEAAXAEBVDrawable@2@AEBVRenderStates@2@@Z)
+PSDeath.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::RenderTarget::draw(class sf::Drawable const &,class sf::RenderStates const &)" (__imp_?draw@RenderTarget@sf@@QEAAXAEBVDrawable@2@AEBVRenderStates@2@@Z)
+PSFall.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::RenderTarget::draw(class sf::Drawable const &,class sf::RenderStates const &)" (__imp_?draw@RenderTarget@sf@@QEAAXAEBVDrawable@2@AEBVRenderStates@2@@Z)
+PSJump.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::RenderTarget::draw(class sf::Drawable const &,class sf::RenderStates const &)" (__imp_?draw@RenderTarget@sf@@QEAAXAEBVDrawable@2@AEBVRenderStates@2@@Z)
+PSRun.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::RenderTarget::draw(class sf::Drawable const &,class sf::RenderStates const &)" (__imp_?draw@RenderTarget@sf@@QEAAXAEBVDrawable@2@AEBVRenderStates@2@@Z)
+Creep.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::RenderTarget::draw(class sf::Drawable const &,class sf::RenderStates const &)" (__imp_?draw@RenderTarget@sf@@QEAAXAEBVDrawable@2@AEBVRenderStates@2@@Z)
+GameButton.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::RenderTarget::draw(class sf::Drawable const &,class sf::RenderStates const &)" (__imp_?draw@RenderTarget@sf@@QEAAXAEBVDrawable@2@AEBVRenderStates@2@@Z)
+Layer.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::RenderTarget::draw(class sf::Drawable const &,class sf::RenderStates const &)" (__imp_?draw@RenderTarget@sf@@QEAAXAEBVDrawable@2@AEBVRenderStates@2@@Z)
+PSAttack.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::RenderTarget::draw(class sf::Drawable const &,class sf::RenderStates const &)" (__imp_?draw@RenderTarget@sf@@QEAAXAEBVDrawable@2@AEBVRenderStates@2@@Z)
+BSAttack.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::RenderTarget::draw(class sf::Drawable const &,class sf::RenderStates const &)" (__imp_?draw@RenderTarget@sf@@QEAAXAEBVDrawable@2@AEBVRenderStates@2@@Z)
+BSJump.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::RenderTarget::draw(class sf::Drawable const &,class sf::RenderStates const &)" (__imp_?draw@RenderTarget@sf@@QEAAXAEBVDrawable@2@AEBVRenderStates@2@@Z)
+BSJumpBite.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::RenderTarget::draw(class sf::Drawable const &,class sf::RenderStates const &)" (__imp_?draw@RenderTarget@sf@@QEAAXAEBVDrawable@2@AEBVRenderStates@2@@Z)
+Bullet.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::RenderTarget::draw(class sf::Drawable const &,class sf::RenderStates const &)" (__imp_?draw@RenderTarget@sf@@QEAAXAEBVDrawable@2@AEBVRenderStates@2@@Z)
+GSMenu.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class sf::RenderStates const sf::RenderStates::Default" (__imp_?Default@RenderStates@sf@@2V12@B) referenced in function "public: __cdecl std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::~basic_string<char,struct std::char_traits<char>,class std::allocator<char> >(void)" (??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@XZ)
+GSPlay.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static class sf::RenderStates const sf::RenderStates::Default" (__imp_?Default@RenderStates@sf@@2V12@B)
+GSSetting.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static class sf::RenderStates const sf::RenderStates::Default" (__imp_?Default@RenderStates@sf@@2V12@B)
+GSAbout.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static class sf::RenderStates const sf::RenderStates::Default" (__imp_?Default@RenderStates@sf@@2V12@B)
+GSEnd.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static class sf::RenderStates const sf::RenderStates::Default" (__imp_?Default@RenderStates@sf@@2V12@B)
+GSHighScore.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static class sf::RenderStates const sf::RenderStates::Default" (__imp_?Default@RenderStates@sf@@2V12@B)
+GSIntro.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static class sf::RenderStates const sf::RenderStates::Default" (__imp_?Default@RenderStates@sf@@2V12@B)
+PSDeath.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static class sf::RenderStates const sf::RenderStates::Default" (__imp_?Default@RenderStates@sf@@2V12@B)
+PSFall.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static class sf::RenderStates const sf::RenderStates::Default" (__imp_?Default@RenderStates@sf@@2V12@B)
+PSJump.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static class sf::RenderStates const sf::RenderStates::Default" (__imp_?Default@RenderStates@sf@@2V12@B)
+PSRun.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static class sf::RenderStates const sf::RenderStates::Default" (__imp_?Default@RenderStates@sf@@2V12@B)
+Creep.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static class sf::RenderStates const sf::RenderStates::Default" (__imp_?Default@RenderStates@sf@@2V12@B)
+GameButton.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static class sf::RenderStates const sf::RenderStates::Default" (__imp_?Default@RenderStates@sf@@2V12@B)
+Layer.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static class sf::RenderStates const sf::RenderStates::Default" (__imp_?Default@RenderStates@sf@@2V12@B)
+PSAttack.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static class sf::RenderStates const sf::RenderStates::Default" (__imp_?Default@RenderStates@sf@@2V12@B)
+BSAttack.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static class sf::RenderStates const sf::RenderStates::Default" (__imp_?Default@RenderStates@sf@@2V12@B)
+BSJump.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static class sf::RenderStates const sf::RenderStates::Default" (__imp_?Default@RenderStates@sf@@2V12@B)
+BSJumpBite.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static class sf::RenderStates const sf::RenderStates::Default" (__imp_?Default@RenderStates@sf@@2V12@B)
+Bullet.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static class sf::RenderStates const sf::RenderStates::Default" (__imp_?Default@RenderStates@sf@@2V12@B)
+Bullet.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Transformable::move(class sf::Vector2<float> const &)" (__imp_?move@Transformable@sf@@QEAAXAEBV?$Vector2@M@2@@Z) referenced in function "public: virtual void __cdecl Bullet::Update(float)" (?Update@Bullet@@UEAAXM@Z)
+Creep.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Transformable::move(class sf::Vector2<float> const &)" (__imp_?move@Transformable@sf@@QEAAXAEBV?$Vector2@M@2@@Z)
+CollisionManager.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: class sf::Rect<float> __cdecl sf::Shape::getGlobalBounds(void)const " (__imp_?getGlobalBounds@Shape@sf@@QEBA?AV?$Rect@M@2@XZ) referenced in function "public: bool __cdecl CollisionManager::checkCollision(class HitBox *,class HitBox *)" (?checkCollision@CollisionManager@@QEAA_NPEAVHitBox@@0@Z)
+GameButton.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class sf::Rect<float> __cdecl sf::Shape::getGlobalBounds(void)const " (__imp_?getGlobalBounds@Shape@sf@@QEBA?AV?$Rect@M@2@XZ)
+GameButton.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static bool __cdecl sf::Mouse::isButtonPressed(enum sf::Mouse::Button)" (__imp_?isButtonPressed@Mouse@sf@@SA_NW4Button@12@@Z) referenced in function "public: void __cdecl GameButton::Update(float)" (?Update@GameButton@@QEAAXM@Z)
+GameButton.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class sf::Vector2<int> __cdecl sf::Mouse::getPosition(class sf::Window const &)" (__imp_?getPosition@Mouse@sf@@SA?AV?$Vector2@H@2@AEBVWindow@2@@Z) referenced in function "public: void __cdecl GameButton::HandleTouchEvent(void)" (?HandleTouchEvent@GameButton@@QEAAXXZ)
+GameButton.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Shape::setTexture(class sf::Texture const *,bool)" (__imp_?setTexture@Shape@sf@@QEAAXPEBVTexture@2@_N@Z) referenced in function "public: void __cdecl GameButton::Init(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?Init@GameButton@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+GameButton.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::RectangleShape::RectangleShape(class sf::Vector2<float> const &)" (__imp_??0RectangleShape@sf@@QEAA@AEBV?$Vector2@M@1@@Z) referenced in function "public: __cdecl GameButton::GameButton(void)" (??0GameButton@@QEAA@XZ)
+HitBox.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::RectangleShape::RectangleShape(class sf::Vector2<float> const &)" (__imp_??0RectangleShape@sf@@QEAA@AEBV?$Vector2@M@1@@Z)
+GSMenu.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::RectangleShape::setSize(class sf::Vector2<float> const &)" (__imp_?setSize@RectangleShape@sf@@QEAAXAEBV?$Vector2@M@2@@Z)
+GSSetting.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::RectangleShape::setSize(class sf::Vector2<float> const &)" (__imp_?setSize@RectangleShape@sf@@QEAAXAEBV?$Vector2@M@2@@Z)
+GameButton.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::RectangleShape::setSize(class sf::Vector2<float> const &)" (__imp_?setSize@RectangleShape@sf@@QEAAXAEBV?$Vector2@M@2@@Z)
+GSAbout.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::RectangleShape::setSize(class sf::Vector2<float> const &)" (__imp_?setSize@RectangleShape@sf@@QEAAXAEBV?$Vector2@M@2@@Z)
+GSEnd.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::RectangleShape::setSize(class sf::Vector2<float> const &)" (__imp_?setSize@RectangleShape@sf@@QEAAXAEBV?$Vector2@M@2@@Z)
+GSHighScore.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::RectangleShape::setSize(class sf::Vector2<float> const &)" (__imp_?setSize@RectangleShape@sf@@QEAAXAEBV?$Vector2@M@2@@Z)
+GameButton.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl sf::RectangleShape::~RectangleShape(void)" (__imp_??1RectangleShape@sf@@UEAA@XZ) referenced in function "public: virtual __cdecl GameButton::~GameButton(void)" (??1GameButton@@UEAA@XZ)
+HitBox.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl sf::RectangleShape::~RectangleShape(void)" (__imp_??1RectangleShape@sf@@UEAA@XZ)
+GameButton.obj : error LNK2001: unresolved external symbol "private: virtual void __cdecl sf::Shape::draw(class sf::RenderTarget &,class sf::RenderStates)const " (?draw@Shape@sf@@EEBAXAEAVRenderTarget@2@VRenderStates@2@@Z)
+HitBox.obj : error LNK2001: unresolved external symbol "private: virtual void __cdecl sf::Shape::draw(class sf::RenderTarget &,class sf::RenderStates)const " (?draw@Shape@sf@@EEBAXAEAVRenderTarget@2@VRenderStates@2@@Z)
+GameButton.obj : error LNK2001: unresolved external symbol "public: virtual class sf::Vector2<float> __cdecl sf::RectangleShape::getPoint(unsigned __int64)const " (?getPoint@RectangleShape@sf@@UEBA?AV?$Vector2@M@2@_K@Z)
+HitBox.obj : error LNK2001: unresolved external symbol "public: virtual class sf::Vector2<float> __cdecl sf::RectangleShape::getPoint(unsigned __int64)const " (?getPoint@RectangleShape@sf@@UEBA?AV?$Vector2@M@2@_K@Z)
+GameButton.obj : error LNK2001: unresolved external symbol "public: virtual unsigned __int64 __cdecl sf::RectangleShape::getPointCount(void)const " (?getPointCount@RectangleShape@sf@@UEBA_KXZ)
+HitBox.obj : error LNK2001: unresolved external symbol "public: virtual unsigned __int64 __cdecl sf::RectangleShape::getPointCount(void)const " (?getPointCount@RectangleShape@sf@@UEBA_KXZ)
+HitBox.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::Color::Color(unsigned char,unsigned char,unsigned char,unsigned char)" (__imp_??0Color@sf@@QEAA@EEEE@Z) referenced in function "public: __cdecl HitBox::HitBox(class sf::Vector2<int>)" (??0HitBox@@QEAA@V?$Vector2@H@sf@@@Z)
+HitBox.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Shape::setFillColor(class sf::Color const &)" (__imp_?setFillColor@Shape@sf@@QEAAXAEBVColor@2@@Z) referenced in function "public: __cdecl HitBox::HitBox(class sf::Vector2<int>)" (??0HitBox@@QEAA@V?$Vector2@H@sf@@@Z)
+HitBox.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Shape::setOutlineColor(class sf::Color const &)" (__imp_?setOutlineColor@Shape@sf@@QEAAXAEBVColor@2@@Z) referenced in function "public: __cdecl HitBox::HitBox(class sf::Vector2<int>)" (??0HitBox@@QEAA@V?$Vector2@H@sf@@@Z)
+HitBox.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Shape::setOutlineThickness(float)" (__imp_?setOutlineThickness@Shape@sf@@QEAAXM@Z) referenced in function "public: __cdecl HitBox::HitBox(class sf::Vector2<int>)" (??0HitBox@@QEAA@V?$Vector2@H@sf@@@Z)
+HitBox.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class sf::Color const sf::Color::Red" (__imp_?Red@Color@sf@@2V12@B) referenced in function "public: __cdecl HitBox::HitBox(class sf::Vector2<int>)" (??0HitBox@@QEAA@V?$Vector2@H@sf@@@Z)
+PSAttack.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static bool __cdecl sf::Keyboard::isKeyPressed(enum sf::Keyboard::Key)" (__imp_?isKeyPressed@Keyboard@sf@@SA_NW4Key@12@@Z) referenced in function "public: virtual void __cdecl PSAttack::Update(float)" (?Update@PSAttack@@UEAAXM@Z)
+PSFall.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static bool __cdecl sf::Keyboard::isKeyPressed(enum sf::Keyboard::Key)" (__imp_?isKeyPressed@Keyboard@sf@@SA_NW4Key@12@@Z)
+PSJump.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static bool __cdecl sf::Keyboard::isKeyPressed(enum sf::Keyboard::Key)" (__imp_?isKeyPressed@Keyboard@sf@@SA_NW4Key@12@@Z)
+PSRun.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static bool __cdecl sf::Keyboard::isKeyPressed(enum sf::Keyboard::Key)" (__imp_?isKeyPressed@Keyboard@sf@@SA_NW4Key@12@@Z)
+GSSetting.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::Text::Text(void)" (__imp_??0Text@sf@@QEAA@XZ) referenced in function "public: __cdecl std::_String_val<struct std::_Simple_types<char> >::~_String_val<struct std::_Simple_types<char> >(void)" (??1?$_String_val@U?$_Simple_types@D@std@@@std@@QEAA@XZ)
+GSAbout.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::Text::Text(void)" (__imp_??0Text@sf@@QEAA@XZ)
+GSEnd.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::Text::Text(void)" (__imp_??0Text@sf@@QEAA@XZ)
+GSHighScore.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::Text::Text(void)" (__imp_??0Text@sf@@QEAA@XZ)
+GSPlay.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::Text::Text(void)" (__imp_??0Text@sf@@QEAA@XZ)
+GSSetting.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Text::setString(class sf::String const &)" (__imp_?setString@Text@sf@@QEAAXAEBVString@2@@Z) referenced in function "public: __cdecl std::_Compressed_pair<class std::allocator<char>,class std::_String_val<struct std::_Simple_types<char> >,1>::~_Compressed_pair<class std::allocator<char>,class std::_String_val<struct std::_Simple_types<char> >,1>(void)" (??1?$_Compressed_pair@V?$allocator@D@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@QEAA@XZ)
+GSAbout.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Text::setString(class sf::String const &)" (__imp_?setString@Text@sf@@QEAAXAEBVString@2@@Z)
+GSEnd.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Text::setString(class sf::String const &)" (__imp_?setString@Text@sf@@QEAAXAEBVString@2@@Z)
+GSHighScore.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Text::setString(class sf::String const &)" (__imp_?setString@Text@sf@@QEAAXAEBVString@2@@Z)
+GSPlay.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Text::setString(class sf::String const &)" (__imp_?setString@Text@sf@@QEAAXAEBVString@2@@Z)
+GSSetting.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Text::setFont(class sf::Font const &)" (__imp_?setFont@Text@sf@@QEAAXAEBVFont@2@@Z)
+GSAbout.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Text::setFont(class sf::Font const &)" (__imp_?setFont@Text@sf@@QEAAXAEBVFont@2@@Z)
+GSEnd.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Text::setFont(class sf::Font const &)" (__imp_?setFont@Text@sf@@QEAAXAEBVFont@2@@Z)
+GSHighScore.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Text::setFont(class sf::Font const &)" (__imp_?setFont@Text@sf@@QEAAXAEBVFont@2@@Z)
+GSPlay.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Text::setFont(class sf::Font const &)" (__imp_?setFont@Text@sf@@QEAAXAEBVFont@2@@Z)
+GSSetting.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl sf::Text::~Text(void)" (__imp_??1Text@sf@@UEAA@XZ)
+GSAbout.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl sf::Text::~Text(void)" (__imp_??1Text@sf@@UEAA@XZ)
+GSEnd.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl sf::Text::~Text(void)" (__imp_??1Text@sf@@UEAA@XZ)
+GSHighScore.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl sf::Text::~Text(void)" (__imp_??1Text@sf@@UEAA@XZ)
+GSPlay.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl sf::Text::~Text(void)" (__imp_??1Text@sf@@UEAA@XZ)
+GSEnd.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::String::String(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::locale const &)" (__imp_??0String@sf@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBVlocale@3@@Z) referenced in function "public: virtual void __cdecl GSEnd::Init(void)" (?Init@GSEnd@@UEAAXXZ)
+GSHighScore.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::String::String(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::locale const &)" (__imp_??0String@sf@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBVlocale@3@@Z)
+GSPlay.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::String::String(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::locale const &)" (__imp_??0String@sf@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBVlocale@3@@Z)
+GSHighScore.obj : error LNK2001: unresolved external symbol "private: virtual void __cdecl sf::Text::draw(class sf::RenderTarget &,class sf::RenderStates)const " (?draw@Text@sf@@EEBAXAEAVRenderTarget@2@VRenderStates@2@@Z)
+GSPlay.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Text::setFillColor(class sf::Color const &)" (__imp_?setFillColor@Text@sf@@QEAAXAEBVColor@2@@Z) referenced in function "public: virtual void __cdecl GSPlay::Init(void)" (?Init@GSPlay@@UEAAXXZ)
+GSPlay.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::SoundSource::setVolume(float)" (__imp_?setVolume@SoundSource@sf@@QEAAXM@Z) referenced in function "public: virtual void __cdecl GSPlay::Init(void)" (?Init@GSPlay@@UEAAXXZ)
+GSPlay.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::SoundStream::setLoop(bool)" (__imp_?setLoop@SoundStream@sf@@QEAAX_N@Z) referenced in function "public: virtual void __cdecl GSPlay::Init(void)" (?Init@GSPlay@@UEAAXXZ)
+D:\gameC++\JackAdventure-main\SFML\lib\sfml-network-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\gameC++\JackAdventure-main\SFML\lib\sfml-graphics-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\gameC++\JackAdventure-main\SFML\lib\sfml-window-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\gameC++\JackAdventure-main\SFML\lib\sfml-audio-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\gameC++\JackAdventure-main\SFML\lib\sfml-system-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\gameC++\JackAdventure-main\x64\Debug\JackAdventure.exe : fatal error LNK1120: 87 unresolved externals

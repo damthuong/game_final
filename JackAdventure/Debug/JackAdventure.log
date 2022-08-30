@@ -1,0 +1,9 @@
+﻿  Boss.cpp
+  GSPlay.cpp
+D:\gameC++\Game_SVMC\JackAdventure-main\JackAdventure\Sources\GameStateManager\GSPlay.cpp(33,70): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Generating Code...
+  JackAdventure.vcxproj -> D:\gameC++\Game_SVMC\JackAdventure-main\Debug\JackAdventure.exe
